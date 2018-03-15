@@ -21,7 +21,7 @@ public class RedisApi {
     
     static {
         InputStream in = RedisApi.class.getClassLoader()
-                .getResourceAsStream("com/dongnao/jack/redis/redis.properties");
+                .getResourceAsStream("com/li/soa/redis/redis.properties");
         
         prop = new Properties();
         try {
